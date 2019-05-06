@@ -1,4 +1,4 @@
-ef dictionary 
+def dictionary 
 {
   "hello" => "hi",
   "to" => "2",
@@ -31,7 +31,7 @@ puts word_substituter(tweet)
 end
 end
 
-  array_of_tweets = ["hello its me you hello its me you hello its me you hello its me you hello its me you hello its me you hello its me you hello its me you hello its me you hello its me you hello its me you hello its me you ", "don't stop you now", " its at the tweet_three"]
+  # array_of_tweets = ["hello its me you hello its me you hello its me you hello its me you hello its me you hello its me you hello its me you hello its me you hello its me you hello its me you hello its me you hello its me you ", "don't stop you now", " its at the tweet_three"]
 
   # Write a new method, selective_tweet_shortener, that only does the substitutions if the tweet is longer than 140 characters. If the tweet is 140 characters or shorter, just return the original tweet.
 
