@@ -21,7 +21,7 @@ array_tweet = string_tweet.split(" ")
 array_tweet.each do |word|
 array_dictionary.include?(word) ? new_tweet << dictionary[word] : new_tweet << word
 end
-new_tweet.join(" ")
+puts new_tweet.join(" ")
 end
 
 def bulk_tweet_shortener(array_of_tweets)
