@@ -36,11 +36,9 @@ end
 
   # Write a new method, selective_tweet_shortener, that only does the substitutions if the tweet is longer than 140 characters. If the tweet is 140 characters or shorter, just return the original tweet.
 
-def selective_tweet_shortener(array_of_tweets)
-array_of_tweets.each do |tweet|
+def selective_tweet_shortener(tweet)
 if tweet.length > 140
 puts word_substituter(tweet)
 end
 puts tweet
-end
 end
